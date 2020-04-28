@@ -1,0 +1,58 @@
+
+
+
+
+header {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    background-image: url(https://storage.needpix.com/rsynced_images/banner-header-1449745144Obv.jpg);
+    
+}
+header h1 {
+    font-family: fantasy;
+    color: whitesmoke
+    
+}
+header h5 {
+    color: whitesmoke;
+    font-size: 15px;
+    flex-direction: initial;
+    text-align: center;
+}
+a {
+    color: #757F8A;
+    text-decoration: none;
+    font-family: fantasy;
+
+    
+}
+li {
+ float: left; 
+ text-decoration: none; 
+ padding: 80px;
+ list-style-type: none}
+}
+
+nav {
+    background-color: teal;
+}
+
+main article section img {
+    position: relative;
+    
+    width: 500px;
+    height: 500px;
+    
+    }
+    
+
+
+  main article section h3 {
+     text-align: start;
+      
+  }
+  footer {
+      background-color: teal;
+  }
+
