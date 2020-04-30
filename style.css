@@ -6,7 +6,7 @@ header {
     font-size: 20px;
     font-family: sans-serif;
     text-align: center;
-    background-image: url(https://storage.needpix.com/rsynced_images/banner-header-1449745144Obv.jpg);
+    background-image: url(https://d1pshulnvyevhv.cloudfront.net/wp-content/uploads/2013/03/21170023/Background-Only-Website-Banner.png);
     
 }
 header h1 {
@@ -44,6 +44,8 @@ main article section img {
     width: 500px;
     height: 500px;
     
+    margin: auto;
+    
     }
     
 
@@ -54,5 +56,17 @@ main article section img {
   }
   footer {
       background-color: teal;
+    
   }
+
+
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  
+  
+
 

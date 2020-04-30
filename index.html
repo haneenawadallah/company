@@ -7,15 +7,26 @@
     <title>Explore the world</title>
     <link href="style.css" rel="stylesheet" type="text/css">
 
-    
+
 
 </head>
 
 <body>
+    <style>
+        body {
+            background-image: url("https://cdn.hipwallpaper.com/i/67/28/d6zFmb.jpg");
+        }
+    </style>
     <header>
 
         <h1>Explore</h1>
         <h5>travel ageny</h5>
+        <form name="login">
+            Username<input type="text" name="userid" />
+            Password<input type="password" name="pswrd" />
+            <input type="button" onclick="check(this.form)" value="Login" />
+            <input type="reset" value="Cancel" />
+        </form>
         <p id="haneen">We travel not to escape life but for life not to escape us.</p>
         <nav>
 
@@ -45,10 +56,10 @@
 
                 </li>
 
-            <li>
-               Search <input type="text" size="8" >
-               <button>go</button>
-            </li>
+                <li>
+                    Search <input type="text" size="8">
+                    <button>go</button>
+                </li>
             </ul>
 
 
@@ -75,7 +86,7 @@
             <section>
                 <h3>Experiance</h3>
                 <p>The purpose of life is to live it, to taste experience to the utmost,
-                     to reach out eagerly and without fear for newer and richer experience.</p>
+                    to reach out eagerly and without fear for newer and richer experience.</p>
             </section>
         </article>
 
@@ -86,19 +97,21 @@
             </section>
             <section>
                 <h3>Relax</h3>
-                <p> We will be more successful in all our endeavors if we can let go of the habit of running all the time, and take little pauses to relax and re-center ourselves. And we'll also have a lot more joy in living.
-                    </p>
+                <p> We will be more successful in all our endeavors if we can let go of the habit of running all the
+                    time, and take little pauses to relax and re-center ourselves. And we'll also have a lot more joy in
+                    living.
+                </p>
             </section>
         </article>
 
 
 
     </main>
-<footer>
-    <p>copyrights 2020</p>
-    <p>info@explore.com</p>
-</footer>
-<script type="text/javascript" src="javascript.js"></script>
+    <footer>
+        <p>copyrights 2020</p>
+        <p>info@explore.com</p>
+    </footer>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 
 </html>
