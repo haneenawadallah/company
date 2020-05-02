@@ -21,7 +21,7 @@ header h5 {
     text-align: center;
 }
 a {
-    color: #757F8A;
+    color: black;
     text-decoration: none;
     font-family: fantasy;
 
@@ -36,11 +36,17 @@ li {
 
 nav {
     background-color: teal;
+    text-align: center;
+    
+}
+header {
+    font-family: fantasy;
 }
 main {
     font-size: 25px;
     text-align: center;
     color:#020040;
+    font-family: fantasy;
 }
 
 main article section img {
@@ -58,6 +64,7 @@ main article section img {
   footer {
       background-color: teal;
       text-align: center;
+      font-family: fantasy;
       
     
   }
