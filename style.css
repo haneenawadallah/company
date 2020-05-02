@@ -37,6 +37,11 @@ li {
 nav {
     background-color: teal;
 }
+main {
+    font-size: 25px;
+    text-align: center;
+    color:#020040;
+}
 
 main article section img {
     position: relative;
@@ -50,12 +55,10 @@ main article section img {
     
 
 
-  main article section h3 {
-     text-align: start;
-      
-  }
   footer {
       background-color: teal;
+      text-align: center;
+      
     
   }
 
