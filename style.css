@@ -32,11 +32,13 @@ li {
  text-decoration: none; 
  padding: 80px;
  list-style-type: none}
+ 
 }
 
 nav {
     background-color: teal;
     text-align: center;
+    font-size: 1cm;
     
 }
 header {
@@ -70,12 +72,6 @@ main article section img {
   }
 
 
-  .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
   
   
 
